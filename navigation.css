@@ -1,23 +1,28 @@
-ul {
+ul.topnav {
     list-style-type: none;
-    margin: 1px;
-    padding: 2px;
+    margin: 0;
+    padding: 0;
     overflow: hidden;
-    background-color: #109;
-}
-
-li {
-    float: left;
-}
-
-li a {
-display: block; 
-color: beige;
-text-align: end;
-padding: 15px 100px;
-text-decoration: none;
-}
-
-li a:hover {
-    background-color: #099;
-}
+    background-color: #333;
+  }
+  
+  ul.topnav li {float: left;}
+  
+  ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  ul.topnav li a:hover:not(.active) {background-color: #111;}
+  
+  ul.topnav li a.active {background-color: #4CAF50;}
+  
+  ul.topnav li.right {float: right;}
+  
+  @media screen and (max-width: 600px) {
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+  }
