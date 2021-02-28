@@ -30,15 +30,29 @@ ul.topnav li a {
 ul.topnav li a:hover:not(.active) {background-color: #099;}
     
 ul.topnav li a.active {background-color: #4CAF50;}
+    ul.topnav li.right {
+        float: right;
+      }
+      
+      @media screen and (max-width: 600px)
+      {
+        ul.topnav li.right, 
+        ul.topnav li {
+          float: none;
+        }
+      }
     </style>
     </head>
+<body>
 <div style="padding:0 16px;">
 <!--wrapper börjar-->
     <div class="wrapper">
     <header class="header">
         <h1>Crispy Healthy House</h1>
     </header>
+</div>
     <header class="mainmenu">
+
     
         <ul class="topnav">
             <li><a href="index.html">home</a></li>
@@ -51,8 +65,7 @@ ul.topnav li a.active {background-color: #4CAF50;}
     <div class="wrapper_2col">
     <div class="leftcol">
       <p>
-      our restuarant has been one of the most popular places in Stockholm since 1990s. our costumers intend to be liking our store because of the great services that 
-          we offer as well as suprizes that each family can get from oss. I'm not going to tell you any more, you must try it out.
+     you can contact us by calling the number +46 731-15 76 50
       </p>
       <div class="push"></div>
     </div><!--rightcol slutar-->
@@ -61,5 +74,6 @@ ul.topnav li a.active {background-color: #4CAF50;}
       <p>All rights reserved - &#169; Copyright</p>
     </footer>
     </div><!--wrapper slutar-->
-  </body>
+ 
+</body>
 </html>
