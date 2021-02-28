@@ -30,16 +30,29 @@ ul.topnav li a {
 ul.topnav li a:hover:not(.active) {background-color: #099;}
     
 ul.topnav li a.active {background-color: #4CAF50;}
+    ul.topnav li.right {
+        float: right;
+      }
+      
+      @media screen and (max-width: 600px)
+      {
+        ul.topnav li.right, 
+        ul.topnav li {
+          float: none;
+        }
+      }
     </style>
-    <head>
-    <body>
-    <div style="padding:0 16px;">
+    </head>
+<body>
+<div style="padding:0 16px;">
 <!--wrapper börjar-->
     <div class="wrapper">
     <header class="header">
         <h1>Crispy Healthy House</h1>
     </header>
+</div>
     <header class="mainmenu">
+
     
         <ul class="topnav">
             <li><a href="index.html">home</a></li>
@@ -52,7 +65,7 @@ ul.topnav li a.active {background-color: #4CAF50;}
     <div class="wrapper_2col">
     <div class="leftcol">
       <p>
-lunch menu varries every day, but we usually offer healthy plates every day.
+     lunch menu varries every day, but we usually offer healthy plates every day.
         Monday: beef with ratatouile and boiled sweet potatos, self served vegetables
         Tuesday: Chilicon carne, with Nacho chips, beans and self served vegetables
         Wednasday: jasmin rice with chicken masala and self served vegetables.
@@ -67,5 +80,6 @@ lunch menu varries every day, but we usually offer healthy plates every day.
       <p>All rights reserved - &#169; Copyright</p>
     </footer>
     </div><!--wrapper slutar-->
-  </body>
+ 
+</body>
 </html>
