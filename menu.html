@@ -4,15 +4,40 @@
     <title>Exempel 1 navigation bar</title>
     <meta charset = "utf-8" />
     <link href = "navigation.css" rel="stylesheet" type="text/css" />
-</head>
-<body>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body {margin: 0;}
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+ul.topnav li a.active {background-color: #4CAF50;}
 <!--wrapper börjar-->
     <div class="wrapper">
     <header class="header">
         <h1>Crispy Healthy House</h1>
     </header>
     <header class="mainmenu">
-        <ul>
+    
+        <ul class="topnav">
             <li><a href="index.html">home</a></li>
             <li><a href="aboutus.html">aboutus</a></li>
             <li><a href="contact.html">contact</a></li>
@@ -23,15 +48,9 @@
     <div class="wrapper_2col">
     <div class="leftcol">
       <p>
-      lunch menu varries every day, but we usually offer healthy plates every day.
-        Monday: beef with ratatouile and boiled sweet potatos, self served vegetables
-        Tuesday: Chilicon carne, with Nacho chips, beans and self served vegetables
-        Wednasday: jasmin rice with chicken masala and self served vegetables.
-        Thursday: grilled fish with garlic bread and olives, self served vegetables
-        friday: Taco and company
-        Helg: variables.
+      our restuarant has been one of the most popular places in Stockholm since 1990s. our costumers intend to be liking our store because of the great services that 
+          we offer as well as suprizes that each family can get from oss. I'm not going to tell you any more, you must try it out.
       </p>
-      
       <div class="push"></div>
     </div><!--rightcol slutar-->
     </div><!--wrapper2col slutar-->
