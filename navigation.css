@@ -3,7 +3,7 @@ ul {
     margin: 0px;
     padding: 0px;
     overflow: hidden;
-    background-color: aqua;
+    background-color: black;
 }
 
 li {
@@ -19,6 +19,6 @@ text-decoration: none;
 }
 
 li a:hover {
-    background-color: brown;
+    background-color: green;
 }
 
