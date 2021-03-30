@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link href="lists-tables.css" rel="stylesheet" type="text/css" />
     <title>Exempel 1 navigation bar</title>
     <meta charset = "utf-8" />
     <link href = "navigation.css" rel="stylesheet" type="text/css" />
@@ -49,23 +50,17 @@
 <!--Unordered list start-->
 <h2> An Unordered List of Some Veggies </h2>
 
-<ul>
 
-<li>Cucumbers</li>
-
-<li>Onions</li>
-
-<li>Cabbage</li>
-
-</ul>
 
 <ul>
+    <ul class="unordered">
 
     <li>Cucumbers</li>
     
     <li>Onions</li>
     
     <ul>
+        <ul class="nested-ul">
     
     <li>Red onions</li>
     
@@ -76,6 +71,7 @@
     <li>Cabbage</li>
     
     </ul>
+
 <!--Unordered list end-->
 
 <!--Ordered list start-->
@@ -94,7 +90,19 @@
 </ol>
 
 <!--Ordered list end-->
+<ol class="custom-box-list">
 
+<li>This is the first item</li>
+
+<li>This is the second item</li>
+
+<li>This is the third item</li>
+
+<li>This is the fourth item</li>
+
+<li>This is the fifth item</li>
+
+</ol>
 <!--Table start-->
 
 <!--Table end-->
