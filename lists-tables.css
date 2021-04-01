@@ -136,4 +136,91 @@
                     transform: translateY(-50%);
 
                 }
+
+                table, td, th {
+
+                    border: 1px solid black;
+                    
+                    }
+                    
+                    table {
+                    
+                    border-collapse: collapse;
+                    
+                    }
+                   th, td {
+                       padding: 15px;
+                   }
+                   td{
+                       text-align: center;
+                   }
+
+                   caption {
+
+                    caption-side: top;
+                    
+                    text-align: center;
+                    
+                    font-style: italic;
+                    
+                    font-weight: bold;
+                    
+                    color: rgb(223, 238, 142);
+                    
+                    }
+
+                    table, th,td {
+
+                        border: 1px solid black;
+                        
+                        border-collapse: collapse;
+                        
+                        }
+                        
+                        th,td {
+                        
+                        padding: 15px;
+                        
+                        text-align: center;
+                        
+                        }
+                        
+                        caption {
+                        
+                        caption-side: bottom;
+                        
+                        text-align: center;
+                        
+                        font-style: italic;
+                        
+                        font-weight: bold;
+                        
+                        color: black;
+                        
+                        }
+                        
+                        .table-simple th {
+                        
+                        background-color: rgb(221, 241, 132);
+                        
+                        color: rgb(15, 3, 3);
+                        
+                        }
+                        .table-simple tr:nth-child(even) {
+
+                            background-color: #f3b137;
+                            
+                            }
+                            
+                            .table-simple tr:nth-child(odd) {
+                            
+                            background-color: #f19844;
+                            
+                            }
+                            
+                            .table-simple tr:hover {
+                            
+                            background-color: #e4ae4a;
+                            
+                            }
                 
