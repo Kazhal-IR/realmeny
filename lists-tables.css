@@ -255,3 +255,31 @@
                                     background-color: #c6e731;
                                     
                                     }
+.scroll-bar {
+    overflow-x: auto;
+
+}
+
+.table-image {
+
+    margin: 0 auto;
+    background-color: #C65405;
+  width: 60%;
+  background-color: #C65405;
+  border-collapse: collapse;
+  border-width: 0mm;
+  border-color: #C65405;;
+  border-style: solid;
+  box-shadow: 1px 1px 20px;
+}
+
+.table-image td,th {
+  border-width: 1mm;
+  border-color: #c65405;
+  border-style: solid;
+  padding: 3px;
+}
+
+
+
+    
